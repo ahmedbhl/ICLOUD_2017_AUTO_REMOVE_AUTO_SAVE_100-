@@ -1,0 +1,53 @@
+body
+{
+margin:0px; auto;
+padding:0px;
+font-family:helvetica;
+}
+.progress 
+{
+ position: fixed;
+ left: 0px;
+ top: 0px;
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ background-color: #F2F2F2;
+}
+.bar 
+{ 
+  background-color: #819FF7; 
+  width:0%; 
+  height:5px; 
+  border-radius: 3px; 
+}
+.percent 
+{ 
+  position:absolute; 
+  display:inline-block; 
+  top:3px; 
+  left:48%; 
+}
+#wrapper
+{
+  width:995px;
+  padding:0px;
+  margin:0px auto;
+  font-family:helvetica;
+  text-align:center;
+}
+h1
+{
+  text-align:center;
+  font-size:35px;
+  margin-top:60px;
+  color:#A9BCF5;
+}
+h1 p
+{
+  text-align:center;
+  margin:0px;
+  font-size:18px;
+  text-decoration:underline;
+  color:grey;
+}

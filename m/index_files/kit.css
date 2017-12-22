@@ -1,0 +1,432 @@
+#header2 {
+  position: relative; }
+  #header2 .leftH .find {
+    /* iPhone 4 ----------- */ }
+    #header2 .rightH > span.spreat {
+  /* Smartphones (portrait and landscape) ----------- */ }
+  
+#header2 .rightH > a.help {
+  /* Smartphones (portrait and landscape) ----------- */ }
+  
+#header2 .rightH > div.setup {
+  position: absolute;
+  color: #24a337;
+  top: 8px;
+  right: 58px;
+  font: 20px 'Lato Light', Tahoma;
+  /* Smartphones (portrait and landscape) ----------- */ }
+  
+.shows {
+  display: block !important; }
+
+.hids {
+  display: none !important; }
+
+.opa {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6; }
+
+div.fName {
+  position: absolute;
+  color: #fff;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.7;
+  top: 8px;
+  right: 58px;
+  font: 21px 'Lato', Tahoma;
+  z-index: 9999999 !important;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1; }
+  div.fName:hover i {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6; }
+  div.fName:hover span {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6; }
+  div.fName i {
+    font-size: 10px;
+    margin-left: 6px;
+    top: -2px; }
+  div.fName span img {
+    position: relative;
+    top: -2px;
+    left: -10px;
+    width: 28px;
+    height: 28px;
+    border-radius: 28px; }
+  div.fName ul {
+    position: absolute;
+    display: none;
+    border-radius: 1px;
+    background: #fff;
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    color: #333;
+    width: 140px;
+    left: 0px;
+    right: -10px;
+    margin: 20px auto 0 auto;
+    z-index: 99999999 !important;
+    padding: 5px 0 5px 0;
+    text-align: left !important; }
+    div.fName ul li {
+      list-style: none;
+      width: 100%;
+      margin: 0;
+      height: 27px;
+      text-align: left !important; }
+      div.fName ul li:hover {
+        background: #e4f1ff; }
+      div.fName ul li a {
+        font: 15px 'Lato', Tahoma, Verdana, Segoe, sans-serif;
+        color: #333;
+        display: block;
+        width: 100%;
+        text-align: left !important;
+        padding: 0 10px; }
+    div.fName ul:after {
+      position: absolute;
+      top: -13px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      content: " ";
+      width: 0;
+      height: 0;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
+      border-bottom: 13px solid #fff;
+      z-index: 99999; }
+
+.imb {
+  position: relative; }
+  .imb span.loadings {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 99999;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 130px;
+    height: 130px;
+    border-radius: 29px;
+    display: none; }
+    .imb span.loadings img {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      top: 55px; }
+.imb:hover {
+  text-decoration: none !important;
+}
+a.allDevices {
+  position: absolute;
+  height: 44px;
+  font: bold 18px 'Lato', Tahoma, Verdana, Segoe, sans-serif;
+  line-height: 44px;
+  right: 0;
+  left: 0;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  color: #24a337;
+  z-index: 999999; }
+  a.allDevices:hover {
+    color: #1b7929; }
+  a.allDevices i {
+    position: relative;
+    top: 0;
+    margin-left: 4px;
+    font-size: 10px; }
+  a.allDevices .deviceBody {
+    position: relative;
+    border: 1px #e0e0e0 solid;
+    border-radius: 8px;
+    overflow: hidden;
+    max-height: 505px; }
+  a.allDevices .getDevice {
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+    border: 1px #e0e0e0 solid;
+    background: #fff;
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    color: #333;
+    width: 305px;
+    max-height: 510px;
+    right: 50%;
+    margin-right: -152px;
+    margin-top: 0px;
+    z-index: 99999;
+    padding: 3px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 -20px 20px -20px rgba(0, 0, 0, 0.1), 0 20px 20px -20px rgba(0, 0, 0, 0.1);
+    text-align: left !important; }
+    a.allDevices .getDevice:after {
+      position: absolute;
+      top: -13px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      content: " ";
+      width: 0;
+      height: 0;
+      border-left: 13px solid transparent;
+      border-right: 13px solid transparent;
+      border-bottom: 13px solid #fff;
+      z-index: 99999; }
+    a.allDevices .getDevice ul {
+      position: relative;
+      border-radius: 8px;
+      color: #333;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      min-width: 100%;
+      overflow-y: scroll;
+      max-height: 500px;
+      text-align: left !important; }
+      a.allDevices .getDevice ul li:last-child {
+        border-bottom: 0; }
+      a.allDevices .getDevice ul li.active {
+        background: #e9e9e9; }
+      a.allDevices .getDevice ul li {
+        position: relative;
+        list-style: none;
+        border-bottom: 1px #e0e0e0 solid;
+        border-top: 0;
+        width: 100%;
+        margin: 0;
+        text-align: left !important;
+        padding: 5px 5px 0px 5px; }
+        a.allDevices .getDevice ul li .imga {
+          position: relative;
+          width: 80px;
+          height: 60px;
+          left: 0;
+          margin-right: 10px;
+          display: inline-block; }
+        a.allDevices .getDevice ul li .imgs {
+          position: relative;
+          width: 22px;
+          height: 60px;
+          left: 0;
+          display: inline-block; }
+        a.allDevices .getDevice ul li .imgd {
+          position: relative;
+          width: 60px;
+          height: 60px;
+          left: -8px;
+          display: inline-block; }
+        a.allDevices .getDevice ul li .namea {
+          position: relative;
+          display: inline-block;
+          width: auto;
+          font: 19px 'Lato', Tahoma, Verdana, Segoe, sans-serif;
+          height: 100%;
+          right: 0;
+          line-height: 10px; }
+        a.allDevices .getDevice ul li .named {
+          position: relative;
+          display: inline-block;
+          width: auto;
+          font: 17px 'Lato', Tahoma, Verdana, Segoe, sans-serif;
+          height: 100%;
+          right: 0;
+          line-height: 10px;
+          direction: rtl !important; }
+        a.allDevices .getDevice ul li .agod {
+          position: absolute;
+          z-index: 999;
+          left: 100px;
+          top: 45px;
+          color: #999;
+          font: 10px 'Lato', Tahoma, Verdana, Segoe, sans-serif; }
+
+.deviceInfos {
+  position: absolute;
+  display: block;
+  width: 320px;
+  height: 270px;
+  background: #fff;
+  right: 15px;
+  top: 15px;
+  z-index: 9999;
+  border: 1px #e0e0e0 solid;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1); }
+  .deviceInfos .devicebattery {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    width: 30px;
+    height: 12px;
+    background: #fff url("../img/packed-3_03-11.png") no-repeat center center;
+    padding-right: 7px; }
+    .deviceInfos .devicebattery span {
+      position: relative;
+      display: block;
+      width: 50%;
+      height: 7px;
+      border-radius: 2px;
+      background: #333;
+      top: 2px;
+      left: 2px; }
+  .deviceInfos .deviceimg {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 110px; }
+    .deviceInfos .deviceimg img {
+      position: relative;
+      display: block;
+      left: 0;
+      right: 0;
+      margin: 0 auto; }
+  .deviceInfos .deviceinfo {
+    position: relative;
+    text-align: center;
+    margin-top: 5px; }
+    .deviceInfos .deviceinfo span {
+      display: block;
+      font: 13px 'Lato', Tahoma, Verdana, Segoe, sans-serif;
+      color: #999;
+      padding: 4px 0; }
+    .deviceInfos .deviceinfo span.name {
+      font: 23px 'Lato', Tahoma, Verdana, Segoe, sans-serif;
+      color: #666; }
+
+.devicemenu {
+  position: relative;
+  display: block;
+  text-align: center;
+  border-top: 1px #e9e9e9 solid;
+  margin-top: 15px;
+  padding-top: 10px; }
+  .devicemenu .deviceAction {
+    position: relative;
+    display: inline-block;
+    width: 94px;
+    text-align: center; }
+    .devicemenu .deviceAction img {
+      position: relative;
+      display: block;
+      left: 0;
+      right: 0;
+      margin: 0 auto; }
+    .devicemenu .deviceAction img.loadingAction {
+      position: relative;
+      width: 16px;
+      display: none;
+      height: 16px;
+      top: 8px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      margin-bottom: 14px; }
+    .devicemenu .deviceAction span {
+      position: relative;
+      display: block;
+      color: #24a337;
+      margin-top: 4px;
+      font: 13px 'Lato', Tahoma, Verdana, Segoe, sans-serif; }
+
+.findBody {
+  position: relative; }
+  .findBody .findmap {
+    display: none; }
+
+.deviceOff {
+  position: relative;
+  display: block;
+  margin: 150px auto 0 auto;
+  text-align: center;
+  font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif; }
+  .deviceOff h2 {
+    font-family: 'Lato Light', Tahoma, Verdana, Segoe, sans-serif;
+    margin: 0;
+    margin-top: 13px; }
+
+.findmaps {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 999; }
+
+img[src^="http://maps.gstatic.com/mapfiles/api-3/images/google4.png"] {
+  display: none !important; }
+
+.gm-style-cc {
+  display: none !important; }
+
+.deviceOffline {
+  position: relative;
+  text-align: center;
+  padding-top: 13px;
+  color: #24a337; }
+  .deviceOffline h2 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    color: #222;
+    font: 35px 'Lato Light', Tahoma, Verdana, Segoe, sans-serif;
+    /* Smartphones (portrait and landscape) ----------- */ }
+      .deviceOffline p {
+    font: 16px 'Lato', Tahoma, Verdana, Segoe, sans-serif;
+    color: #999; }
+  .deviceOffline .dline {
+    position: relative;
+    display: block;
+    width: 320px;
+    height: 1px;
+    background: #d9d9d9;
+    margin: 15px auto; }
+  .deviceOffline .dnoti {
+    color: #24a337;
+    font: 18px 'Lato Light', Tahoma, Verdana, Segoe, sans-serif; }
+  .deviceOffline .devicemenu {
+    position: relative;
+    display: block;
+    text-align: center; }
+    .deviceOffline .devicemenu .deviceAction {
+      display: inline-block;
+      text-align: center;
+      margin-right: 20px; }
+      .deviceOffline .devicemenu .deviceAction span {
+        display: block;
+        font: 15px 'Lato', Tahoma, Verdana, Segoe, sans-serif; }
+  .deviceOffline a.dremove {
+    font: 20px 'Lato', Tahoma, Verdana, Segoe, sans-serif;
+    color: #24a337; }
+
+@media screen and (max-width: 600px) {
+      #header2 .leftH .find {
+        display: none !important; } }
+
+@media only screen and (max-width: 600px) {
+  #header2 .rightH > a.logout {
+    position: relative;
+    height: 22px;
+    width: 22px;
+    padding: 0 10px;
+    background: url("../img/logout.png") no-repeat 0px 0px;
+    margin-right: 3px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    z-index: 99999999; }
+
+  #header2 .rightH > a.logout:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    opacity: 0.6; } 
+    #header2 .rightH > span.spreat {
+      display: none !important; } 
+    #header2 .rightH > a.help {
+      display: none !important; } 
+    #header2 .rightH > div.setup {
+      display: none !important; } 
+      .deviceOffline h2 {
+        font-size: 25px; } }
+
+/*# sourceMappingURL=kit.css.map */
